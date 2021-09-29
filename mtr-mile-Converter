@@ -1,0 +1,5 @@
+m="write a number of meters and i will convert it to miles "
+u=input(m)
+t=float(u)
+i=(t)/1609.34
+print(i)
