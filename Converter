@@ -1,0 +1,3 @@
+m=int(input("write any number of mins and i will convert it to hours "))
+h=(m/60)
+print(h)
