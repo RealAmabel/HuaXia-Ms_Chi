@@ -1,0 +1,9 @@
+def Dtc(d,p):
+    # this function is to calculate tip amount for dinner
+    # users of this function need to provide dinner price and percentage of tip they want to pay
+    if type(d) != int and type(d)!= float:
+        return "please provide dinner price in a number"
+    elif type(p) != int and type(p)!= float:
+        return "please provide tip percentage in a number, do not include % sign"
+    else:
+        return(d*p/100)
